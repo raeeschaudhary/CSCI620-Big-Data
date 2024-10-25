@@ -1,0 +1,8 @@
+('Gather  (cost=1000.43..60260.02 rows=441 width=12)',)
+('  Workers Planned: 2',)
+('  ->  Nested Loop  (cost=0.43..59215.92 rows=184 width=12)',)
+('        ->  Parallel Seq Scan on comments  (cost=0.00..47948.82 rows=1655 width=12)',)
+('              Filter: (score > 10)',)
+('        ->  Index Scan using users_pkey on users  (cost=0.43..6.80 rows=1 width=24)',)
+('              Index Cond: (id = comments.userid)',)
+("              Filter: ((comments.creationdate >= creationdate) AND (comments.creationdate <= (creationdate + '7 days'::interval)))",)

@@ -1,0 +1,7 @@
+('Nested Loop Anti Join  (cost=48.11..12533.40 rows=3895 width=12)',)
+('  ->  Bitmap Heap Scan on users  (cost=47.68..10405.60 rows=4033 width=16)',)
+('        Recheck Cond: (reputation > 1000)',)
+('        ->  Bitmap Index Scan on idx_users_reputation  (cost=0.00..46.68 rows=4033 width=0)',)
+('              Index Cond: (reputation > 1000)',)
+('  ->  Index Only Scan using idx_posts_owner_user on posts  (cost=0.42..2.21 rows=18 width=4)',)
+('        Index Cond: (owneruserid = users.id)',)

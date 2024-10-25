@@ -1,0 +1,347 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: C:\Users\mr2714\OneDrive - rit.edu\Python Scripts\BigData\A1\data\Users.xml
+Total Records: 1450497
+Key information with max value lengths, longest values, and null counts:
+Key: AboutMe
+Max_Length: 7126
+Long post with more than 1000 chars
+Null count: 966039
+Unique Count: 50
+Key: AccountId
+Max_Length: 8
+Null count: 48
+Unique Count: 50
+Key: CreationDate
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+Key: DisplayName
+Max_Length: 40
+Null count: 0
+Unique Count: 50
+Key: DownVotes
+Max_Length: 6
+Null count: 0
+Unique Count: 50
+Key: Id
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+Key: LastAccessDate
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+Key: Location
+Max_Length: 100
+Null count: 1112729
+Unique Count: 50
+Key: Reputation
+Max_Length: 6
+Null count: 0
+Unique Count: 50
+Key: UpVotes
+Max_Length: 5
+Null count: 0
+Unique Count: 50
+Key: Views
+Max_Length: 5
+Null count: 0
+Unique Count: 50
+Key: WebsiteUrl
+Max_Length: 200
+Null count: 1039502
+Unique Count: 50
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: C:\Users\mr2714\OneDrive - rit.edu\Python Scripts\BigData\A1\data\Badges.xml
+Total Records: 1977518
+Key information with max value lengths, longest values, and null counts:
+Key: Class
+Max_Length: 1
+Null count: 0
+Unique Count: 3
+Key: Date
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+Key: Id
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+Key: Name
+Max_Length: 27
+Null count: 0
+Unique Count: 50
+Key: TagBased
+Max_Length: 5
+Null count: 0
+Unique Count: 2
+Key: UserId
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: C:\Users\mr2714\OneDrive - rit.edu\Python Scripts\BigData\A1\data\Posts.xml
+Total Records: 939104
+Key information with max value lengths, longest values, and null counts:
+Key: AcceptedAnswerId
+Max_Length: 7
+Null count: 803789
+Unique Count: 50
+Key: AnswerCount
+Max_Length: 2
+Null count: 526871
+Unique Count: 44
+Key: Body
+Max_Length: 38146
+Long post with more than 1000 chars
+Null count: 1667
+Unique Count: 50
+Key: ClosedDate
+Max_Length: 23
+Null count: 890344
+Unique Count: 50
+Key: CommentCount
+Max_Length: 2
+Null count: 0
+Unique Count: 50
+Key: CommunityOwnedDate
+Max_Length: 23
+Null count: 934804
+Unique Count: 50
+Key: ContentLicense
+Max_Length: 12
+Null count: 0
+Unique Count: 3
+Key: CreationDate
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+Key: FavoriteCount
+Max_Length: 1
+Null count: 927948
+Unique Count: 2
+Key: Id
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+Key: LastActivityDate
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+Key: LastEditDate
+Max_Length: 23
+Null count: 481343
+Unique Count: 50
+Key: LastEditorDisplayName
+Max_Length: 14
+Null count: 929836
+Unique Count: 50
+Key: LastEditorUserId
+Max_Length: 7
+Null count: 489601
+Unique Count: 50
+Key: OwnerDisplayName
+Max_Length: 28
+Null count: 921039
+Unique Count: 50
+Key: OwnerUserId
+Max_Length: 7
+Null count: 16690
+Unique Count: 50
+Key: ParentId
+Max_Length: 7
+Null count: 419156
+Unique Count: 50
+Key: PostTypeId
+Max_Length: 1
+Null count: 0
+Unique Count: 7
+Key: Score
+Max_Length: 4
+Null count: 0
+Unique Count: 50
+Key: Tags
+Max_Length: 103
+Null count: 526871
+Unique Count: 50
+Key: Title
+Max_Length: 150
+Null count: 526871
+Unique Count: 50
+Key: ViewCount
+Max_Length: 7
+Null count: 526871
+Unique Count: 50
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: C:\Users\mr2714\OneDrive - rit.edu\Python Scripts\BigData\A1\data\PostLinks.xml
+Total Records: 335807
+Key information with max value lengths, longest values, and null counts:
+Key: CreationDate
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+Key: Id
+Max_Length: 8
+Null count: 0
+Unique Count: 50
+Key: LinkTypeId
+Max_Length: 1
+Null count: 0
+Unique Count: 2
+Key: PostId
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+Key: RelatedPostId
+Max_Length: 8
+Null count: 0
+Unique Count: 50
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: C:\Users\mr2714\OneDrive - rit.edu\Python Scripts\BigData\A1\data\Comments.xml
+Total Records: 1517942
+Key information with max value lengths, longest values, and null counts:
+Key: ContentLicense
+Max_Length: 12
+Null count: 0
+Unique Count: 3
+Key: CreationDate
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+Key: Id
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+Key: PostId
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+Key: Score
+Max_Length: 3
+Null count: 0
+Unique Count: 50
+Key: Text
+Max_Length: 600
+Null count: 1
+Unique Count: 50
+Key: UserDisplayName
+Max_Length: 27
+Null count: 1483493
+Unique Count: 50
+Key: UserId
+Max_Length: 7
+Null count: 33684
+Unique Count: 50
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: C:\Users\mr2714\OneDrive - rit.edu\Python Scripts\BigData\A1\data\PostHistory.xml
+Total Records: 3069982
+Key information with max value lengths, longest values, and null counts:
+Key: Comment
+Max_Length: 329
+Null count: 1853626
+Unique Count: 50
+Key: ContentLicense
+Max_Length: 12
+Null count: 202799
+Unique Count: 3
+Key: CreationDate
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+Key: Id
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+Key: PostHistoryTypeId
+Max_Length: 2
+Null count: 0
+Unique Count: 31
+Key: PostId
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+Key: RevisionGUID
+Max_Length: 36
+Null count: 0
+Unique Count: 50
+Key: Text
+Max_Length: 30011
+Long post with more than 1000 chars
+Null count: 240634
+Unique Count: 50
+Key: UserDisplayName
+Max_Length: 27
+Null count: 3014787
+Unique Count: 50
+Key: UserId
+Max_Length: 7
+Null count: 199642
+Unique Count: 50
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: C:\Users\mr2714\OneDrive - rit.edu\Python Scripts\BigData\A1\data\Votes.xml
+Total Records: 4873241
+Key information with max value lengths, longest values, and null counts:
+Key: BountyAmount
+Max_Length: 3
+Null count: 4857378
+Unique Count: 16
+Key: CreationDate
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+Key: Id
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+Key: PostId
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+Key: UserId
+Max_Length: 7
+Null count: 4862143
+Unique Count: 50
+Key: VoteTypeId
+Max_Length: 2
+Null count: 0
+Unique Count: 14
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: C:\Users\mr2714\OneDrive - rit.edu\Python Scripts\BigData\A1\data\Tags.xml
+Total Records: 3155
+Key information with max value lengths, longest values, and null counts:
+Key: Count
+Max_Length: 5
+Null count: 0
+Unique Count: 50
+Key: ExcerptPostId
+Max_Length: 7
+Null count: 604
+Unique Count: 50
+Key: Id
+Max_Length: 5
+Null count: 0
+Unique Count: 50
+Key: TagName
+Max_Length: 27
+Null count: 0
+Unique Count: 50
+Key: WikiPostId
+Max_Length: 7
+Null count: 604
+Unique Count: 50
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
