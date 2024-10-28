@@ -2,7 +2,7 @@
 
 1. Navigate to root folder.
 2. Activate your virtual environment. (unless you have or can install psycopg2==2.9.9 in your existing environment)
-3. Install the python package from requirements.txt e.g., pip install psycopg2==2.9.9 (if you do not have it)
+3. Install the python package from requirements.txt e.g., `pip install psycopg2==2.9.9` (if you do not have these.)
 4. Navigate to `code/globals.py` to provide database path and credentials. Save the file.
 5. Navigate to `code/globals.py` to provide the dataset path. Make sure the path contains the final slash. Also, the code expects to all input files in the data folder. Save the file.
 6. Navigage back to root folder.

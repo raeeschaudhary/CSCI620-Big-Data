@@ -1,0 +1,64 @@
+Discovered Functional Dependencies (after pruning):
+('userid',) -> userdisplayname
+('userid',) -> usercreationdate
+('userid',) -> reputation
+('usercreationdate',) -> userid
+('usercreationdate',) -> userdisplayname
+('usercreationdate',) -> reputation
+('postid',) -> userid
+('postid',) -> userdisplayname
+('postid',) -> usercreationdate
+('postid',) -> reputation
+('postid',) -> posttitle
+('postid',) -> postbody
+('postid',) -> postscore
+('postid',) -> postviewcount
+('postid',) -> postcreationdate
+('postcreationdate',) -> userid
+('postcreationdate',) -> userdisplayname
+('postcreationdate',) -> usercreationdate
+('postcreationdate',) -> reputation
+('postcreationdate',) -> postid
+('postcreationdate',) -> posttitle
+('postcreationdate',) -> postbody
+('postcreationdate',) -> postscore
+('postcreationdate',) -> postviewcount
+('tagid',) -> tagname
+('tagname',) -> tagid
+('userdisplayname', 'posttitle') -> userid
+('userdisplayname', 'posttitle') -> usercreationdate
+('userdisplayname', 'posttitle') -> reputation
+('userdisplayname', 'postbody') -> userid
+('userdisplayname', 'postbody') -> usercreationdate
+('userdisplayname', 'postbody') -> reputation
+('aboutme', 'posttitle') -> userid
+('aboutme', 'posttitle') -> userdisplayname
+('aboutme', 'posttitle') -> usercreationdate
+('aboutme', 'posttitle') -> reputation
+('aboutme', 'postbody') -> userid
+('aboutme', 'postbody') -> userdisplayname
+('aboutme', 'postbody') -> usercreationdate
+('aboutme', 'postbody') -> reputation
+('posttitle', 'postbody') -> userid
+('posttitle', 'postbody') -> userdisplayname
+('posttitle', 'postbody') -> usercreationdate
+('posttitle', 'postbody') -> reputation
+('posttitle', 'postviewcount') -> userid
+('posttitle', 'postviewcount') -> userdisplayname
+('posttitle', 'postviewcount') -> usercreationdate
+('posttitle', 'postviewcount') -> reputation
+('posttitle', 'postviewcount') -> postid
+('posttitle', 'postviewcount') -> postbody
+('posttitle', 'postviewcount') -> postscore
+('posttitle', 'postviewcount') -> postcreationdate
+('postbody', 'postviewcount') -> userid
+('postbody', 'postviewcount') -> userdisplayname
+('postbody', 'postviewcount') -> usercreationdate
+('postbody', 'postviewcount') -> reputation
+('postbody', 'postviewcount') -> postid
+('postbody', 'postviewcount') -> posttitle
+('postbody', 'postviewcount') -> postscore
+('postbody', 'postviewcount') -> postcreationdate
+('postbody', 'tagid') -> reputation
+('postbody', 'tagname') -> reputation
+Total running time:  3665.494000673294  seconds

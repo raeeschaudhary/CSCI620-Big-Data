@@ -1,0 +1,13 @@
+Minimum Dependencies
+('userid',) -> userdisplayname
+('userid',) -> aboutme
+('userid',) -> usercreationdate
+('userid',) -> reputation
+('postid',) -> userid
+('postid',) -> posttitle
+('postid',) -> postbody
+('postid',) -> postscore
+('postid',) -> postviewcount
+('postid',) -> postcreationdate
+('tagid',) -> tagname
+('posttitle', 'postviewcount') -> postid

@@ -1,0 +1,32 @@
+Discovered Functional Dependencies:
+('userid',) -> userdisplayname
+('userid',) -> usercreationdate
+('userid',) -> reputation
+('usercreationdate',) -> userid
+('usercreationdate',) -> userdisplayname
+('usercreationdate',) -> reputation
+('postid',) -> userid
+('postid',) -> userdisplayname
+('postid',) -> usercreationdate
+('postid',) -> reputation
+('postid',) -> posttitle
+('postid',) -> postbody
+('postid',) -> postscore
+('postid',) -> postviewcount
+('postid',) -> postcreationdate
+('postcreationdate',) -> userid
+('postcreationdate',) -> userdisplayname
+('postcreationdate',) -> usercreationdate
+('postcreationdate',) -> reputation
+('postcreationdate',) -> postid
+('postcreationdate',) -> posttitle
+('postcreationdate',) -> postbody
+('postcreationdate',) -> postscore
+('postcreationdate',) -> postviewcount
+('tagid',) -> tagname
+('tagname',) -> tagid
+('userid', 'userdisplayname') -> usercreationdate
+('userid', 'userdisplayname') -> reputation
+('userid', 'aboutme') -> userdisplayname
+('userid', 'aboutme') -> usercreationdate
+('userid', 'aboutme') -> reputation
