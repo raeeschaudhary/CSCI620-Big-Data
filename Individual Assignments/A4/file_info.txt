@@ -1,0 +1,142 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: C:\Users\mr2714\OneDrive - rit.edu\Python_Projects\BigData\data\users.xml
+Total Records: 1450497
+Key information with max value lengths, longest values, and null counts:
+Key: Id
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+
+Key: DisplayName
+Max_Length: 40
+Null count: 0
+Unique Count: 50
+
+Key: CreationDate
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+
+Key: LastAccessDate
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+
+Key: Views
+Max_Length: 5
+Null count: 0
+Unique Count: 50
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: C:\Users\mr2714\OneDrive - rit.edu\Python_Projects\BigData\data\badges.xml
+Total Records: 1977518
+Key information with max value lengths, longest values, and null counts:
+Key: Id
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+
+Key: Name
+Max_Length: 27
+Null count: 0
+Unique Count: 50
+
+Key: Date
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+
+Key: UserId
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: C:\Users\mr2714\OneDrive - rit.edu\Python_Projects\BigData\data\posts.xml
+Total Records: 939104
+Key information with max value lengths, longest values, and null counts:
+Key: Id
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+
+Key: OwnerUserId
+Max_Length: 7
+Null count: 16690
+Unique Count: 50
+
+Key: PostTypeId
+Max_Length: 1
+Null count: 0
+Unique Count: 7
+
+Key: CreationDate
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+
+Key: Title
+Max_Length: 150
+Null count: 526871
+Unique Count: 50
+
+Key: Body
+Max_Length: 38146
+Long post with more than 1000 chars
+Null count: 1667
+
+Key: ViewCount
+Max_Length: 7
+Null count: 526871
+Unique Count: 50
+
+Key: Score
+Max_Length: 4
+Null count: 0
+Unique Count: 50
+
+Key: Tags
+Max_Length: 103
+Null count: 526871
+Unique Count: 50
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: C:\Users\mr2714\OneDrive - rit.edu\Python_Projects\BigData\data\comments.xml
+Total Records: 1517942
+Key information with max value lengths, longest values, and null counts:
+Key: Id
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+
+Key: UserId
+Max_Length: 7
+Null count: 33684
+Unique Count: 50
+
+Key: Text
+Max_Length: 600
+Null count: 1
+Unique Count: 50
+
+Key: CreationDate
+Max_Length: 23
+Null count: 0
+Unique Count: 50
+
+Key: Score
+Max_Length: 3
+Null count: 0
+Unique Count: 50
+
+Key: PostId
+Max_Length: 7
+Null count: 0
+Unique Count: 50
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
