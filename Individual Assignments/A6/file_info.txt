@@ -1,0 +1,66 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+File: C:\Users\mr2714\OneDrive - rit.edu\Python_Projects\BigData\data\extra-data.json
+Total Records: 7140
+Key information with max value lengths, longest values, and null counts:
+Key: account_id
+Longest Value Length: 6
+Longest Value: 102248
+Null count: 0
+Unique Count: 429
+Key: answer_count
+Longest Value Length: 5
+Longest Value: 16755
+Null count: 0
+Unique Count: 253
+Key: badge_counts.bronze
+Longest Value Length: 4
+Longest Value: 2917
+Null count: 0
+Unique Count: 189
+Key: badge_counts.gold
+Longest Value Length: 3
+Longest Value: 268
+Null count: 0
+Unique Count: 66
+Key: badge_counts.silver
+Longest Value Length: 4
+Longest Value: 2584
+Null count: 0
+Unique Count: 158
+Key: creation_date
+Longest Value Length: 10
+Longest Value: 1218724709
+Null count: 0
+Unique Count: 7044
+Key: last_access_date
+Longest Value Length: 10
+Longest Value: 1705674547
+Null count: 0
+Unique Count: 7105
+Key: question_count
+Longest Value Length: 4
+Longest Value: 1163
+Null count: 0
+Unique Count: 130
+Key: reputation
+Longest Value Length: 7
+Longest Value: 1037034
+Null count: 0
+Unique Count: 1190
+Key: site_name
+Longest Value Length: 61
+Longest Value: Programming Language Design and Implementation Stack Exchange
+Null count: 0
+Unique Count: 155
+Key: site_url
+Longest Value Length: 45
+Longest Value: https://softwareengineering.stackexchange.com
+Null count: 0
+Unique Count: 155
+Key: user_id
+Longest Value Length: 7
+Longest Value: 1037104
+Null count: 0
+Unique Count: 6507
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
